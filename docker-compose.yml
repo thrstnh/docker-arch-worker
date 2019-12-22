@@ -1,0 +1,6 @@
+---
+version: "3"
+services:
+  arch:
+    build: .
+    image: docker.gitlab.securitylab.cloud/docker/arch-worker
